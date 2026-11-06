@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="nl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Bakkerij Mentes · Zwolle · Voorbeeldontwerp door Krevio</title>
+<style>
+:root{--cream:#fdf6ec;--ink:#2b1a12;--red:#a3321f;--gold:#d99a2b;--line:#ecdcc3}
+*{box-sizing:border-box}body{margin:0;font-family:Georgia,serif;background:var(--cream);color:var(--ink);line-height:1.6}
+.wrap{max-width:1000px;margin:0 auto;padding:0 22px}
+header{position:sticky;top:0;background:rgba(253,246,236,.95);border-bottom:1px solid var(--line);z-index:5}
+header .wrap{display:flex;justify-content:space-between;align-items:center;height:62px}
+.logo{font-size:22px;font-weight:700;color:var(--red)}
+nav a{margin-left:20px;text-decoration:none;font:500 13px system-ui,sans-serif;letter-spacing:.08em;text-transform:uppercase}
+.btn{display:inline-block;background:var(--red);color:#fff;text-decoration:none;padding:14px 26px;border-radius:999px;font:600 15px system-ui,sans-serif}
+.btn:hover{background:var(--gold)}
+.hero{padding:84px 0 64px;background:radial-gradient(800px 380px at 85% 0,#f6dcae 0,transparent 60%)}
+.hero small{font:600 12px system-ui,sans-serif;letter-spacing:.26em;text-transform:uppercase;color:var(--gold)}
+.hero h1{font-size:clamp(36px,7vw,64px);line-height:1.05;margin:14px 0 16px;color:var(--red)}
+.hero p{font-size:19px;max-width:540px;margin:0 0 28px}
+section{padding:56px 0}h2{font-size:32px;color:var(--red);margin:0 0 14px}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:24px}
+.card{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px}.card h3{margin:0 0 4px;color:var(--red)}.card p{margin:0}
+.menu{display:grid;grid-template-columns:1fr 1fr;gap:6px 40px;font:16px system-ui,sans-serif;margin-top:20px}
+.menu div{display:flex;justify-content:space-between;border-bottom:1px dotted var(--line);padding:8px 0}
+.band{background:var(--red);color:#fff}.band h2{color:#fff}.band .btn{background:var(--gold)}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:36px}
+.info{background:#fff;border:1px solid var(--line);border-radius:16px;padding:24px;font:16px system-ui,sans-serif}
+.info b{font-family:Georgia,serif;color:var(--red);font-size:19px;display:block;margin-bottom:6px}
+footer{padding:28px 0 70px;font:13px system-ui,sans-serif;color:#7b6a5a;border-top:1px solid var(--line)}
+.tag{position:fixed;bottom:14px;right:14px;background:#17120a;color:#e6c98a;font:12px system-ui,sans-serif;padding:9px 14px;border-radius:99px;z-index:9;box-shadow:0 6px 24px rgba(0,0,0,.25)}
+@media(max-width:760px){.grid,.two,.menu{grid-template-columns:1fr}nav a:not(.keep){display:none}.hero{padding:52px 0 40px}}
+</style></head><body>
+<header><div class="wrap"><div class="logo">Bakkerij Mentes</div>
+<nav><a href="#over">Over ons</a><a href="#menu">Menu</a><a class="keep" href="#contact">Contact</a></nav></div></header>
+
+<div class="hero"><div class="wrap">
+<small>Thomas à Kempisstraat · Zwolle</small>
+<h1>Altijd vers gebakken.</h1>
+<p>Turks brood, lahmacun, döner en zoetigheid, dagelijks meerdere keren vers uit de oven. 100% halal vlees.</p>
+<a class="btn" href="#menu">Bekijk het menu</a>
+</div></div>
+
+<section id="over"><div class="wrap">
+<h2>Over ons</h2>
+<p>Bakkerij Mentes bakt al jarenlang meerdere keren per dag vers brood, voor particulieren en zakelijke klanten. Het motto van Yasar: “Altijd vers gebakken.”</p>
+<div class="grid">
+<div class="card"><h3>Vers brood</h3><p>Turks brood en ambachtelijke broden die je bijna nergens anders vindt.</p></div>
+<div class="card"><h3>Warm uit de oven</h3><p>Lahmacun, pide, gözleme en hartige hapjes.</p></div>
+<div class="card"><h3>Duurzaam</h3><p>Na sluitingstijd gaan overgebleven broden en snacks naar moskeeën of voedselbanken.</p></div>
+</div></div></section>
+
+<section id="menu" style="background:#fff"><div class="wrap">
+<h2>Uit het menu</h2>
+<div class="menu">
+<div><span>Somun</span><b>€ 1,60</b></div>
+<div><span>Grote pide</span><b>€ 2,40</b></div>
+<div><span>Kleine pide</span><b>€ 1,80</b></div>
+<div><span>Pide kaas</span><b>€ 3,50</b></div>
+<div><span>Pide gehakt</span><b>€ 3,80</b></div>
+<div><span>Simit</span><b>€ 1,30</b></div>
+<div><span>Sigara börek</span><b>€ 1,60</b></div>
+<div><span>Gözleme spinazie</span><b>€ 4,40</b></div>
+<div><span>Tosti</span><b>€ 4,50</b></div>
+<div><span>Broodje döner</span><b>€ 6,80</b></div>
+<div><span>Durum döner</span><b>€ 7,30</b></div>
+<div><span>Koekjes (per kilo)</span><b>€ 15,00</b></div>
+</div>
+<p style="font:14px system-ui,sans-serif;color:#7b6a5a">Selectie van het menu op de huidige website. Ook baklava en meer.</p>
+</div></section>
+
+<section id="contact" class="band"><div class="wrap two">
+<div><h2>Kom langs</h2><p>Thomas à Kempisstraat 27<br>8021 BH Zwolle</p>
+<p><a class="btn" href="tel:+31615968925">Bel (06) 15968925</a></p></div>
+<div class="info" style="color:var(--ink)"><b>Openingstijden</b>
+Ma, di, vr, za: 07:00 – 18:30<br>Woensdag: 07:00 – 19:30<br>Donderdag: 07:00 – 20:00<br>Zondag: gesloten</div>
+</div></section>
+
+<footer><div class="wrap">© Bakkerij Mentes · Voorbeeldontwerp door Krevio</div></footer>
+<div class="tag">Voorbeeldontwerp door Krevio</div>
+</body></html>
